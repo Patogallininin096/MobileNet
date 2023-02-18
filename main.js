@@ -4,6 +4,9 @@ function setup() {
   video = createCapture(VIDEO);
   video.hide();
 }
+function draw(){
+  Image(video, 0, 0, 300, 300);
+}
 
 
 
